@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   height: 100dvh;
+   display:grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 150px auto 300px;
+   row-gap: 50px;
+}
+
+/* en header     width:100% inherente, no hay que ponerlo */
+
+header{
+    background-color: #42AAFF;
+}
+
+main{
+    max-width: 1000px;
+    justify-self: center;
+}
+
+footer{
+    background-color: #474747;
+}

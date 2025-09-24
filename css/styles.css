@@ -1,3 +1,68 @@
 @import "reset.css";
 @import "normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&display=swap');
+
+.inter-regular {
+       font-family: "Inter", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+    }
+
+.inter-black {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+:root{
+    --color-header: #42AAFF;
+    --color-main: #FFFFFF;
+    --color-footer: #474747;
+    --fontsize-big: 20px;
+    --fontsize-medium: 16px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    background-color: var(--color-header);
+    padding: 20px 0;
+    max-width: 1280px;
+    height: 150px;
+}
+
+.main{
+    display: flex;
+    /* grid-template-columns: 140px 1000px 140px; */
+    flex-direction: column;
+    padding: 40px 140px;
+    
+    .h1{
+        font-size: var(--fontsize-big);
+    }
+  
+
+    & p{
+        font-size: var(--fontsize-medium);
+    }
+}
+
+.footer{
+    background-color: var(--color-footer);
+    padding: 20px 0;
+    max-width: 1280px;
+    height: 300px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* en header     width:100% inherente, no hay que ponerlo */
+
+header{
+    height: 150 px;
+    background-color: #42AAFF;
+}
+
+main{
+    max-width: 1000px;
+    margin: 50px auto;;
+}
+
+footer{
+    height: 300 px;
+    background-color: #474747;
+}
